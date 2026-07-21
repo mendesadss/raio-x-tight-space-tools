@@ -343,6 +343,29 @@ def paleta_html():
                f'<div class="info"><b>{s["nome"]}</b><div class="hex">{s["hex"]}</div><div class="fn">{s["fn"]}</div></div></div>')
     return f'<div class="palette">{sw}</div><p style="color:var(--dim2);font-size:12.5px;margin-top:6px">{p["nota"]}</p>'
 
+def decisao_mercado_html():
+    return """
+<section>
+<h2><span class="n">00</span>Decisão de mercado: onde montar a loja</h2>
+<p class="lead">Antes de qualquer produto, a decisão que define o resto. Puxada da página <a href="mercados.html">Mercados</a> (medida na Ad Library + Google Trends, não por achismo).</p>
+<div class="grid g2">
+<div class="op"><div class="r">Passo 1 · valida rápido e barato</div><h3>Reino Unido 🇬🇧</h3>
+<dl class="kv">
+<dt>Idioma da loja</dt><dd><b>Inglês</b> — a copy dos EUA entra sem tradução</dd>
+<dt>Moeda</dt><dd>Libra (£ GBP)</dd>
+<dt>Por quê</dt><dd>Ângulo quase vazio (4 anúncios ativos) + maior interesse de Google Trends entre mercados grandes (60). Menor esforço pra primeiro resultado.</dd>
+</dl></div>
+<div class="op"><div class="r">Passo 2 · a marca dedicada (oceano mais azul)</div><h3>DACH 🇩🇪🇦🇹🇨🇭</h3>
+<dl class="kv">
+<dt>Idioma da loja</dt><dd><b>Alemão</b> — marca Winkelmeister, copy traduzida</dd>
+<dt>Moeda</dt><dd>Euro (€ EUR)</dd>
+<dt>Por quê</dt><dd>Ângulo ZERO com mercado de categoria presente (19). O território mais aberto, mas exige traduzir e adaptar.</dd>
+</dl></div>
+</div>
+<div class="note"><b>Onde NÃO montar agora:</b> Estados Unidos (saturado, 295 ativos, briga de budget) e Canadá/Austrália (já sendo atacados pela WildBear). Deixe pra depois de validar UK e DACH.</div>
+</section>
+"""
+
 def build_plano():
     b = """
 <header>
@@ -350,6 +373,7 @@ def build_plano():
 <h1>Como você entra nesse nicho</h1>
 <p class="sub">Marca, produto com fornecedor, escada de oferta, ângulos de copy, funil e orçamento. Tudo derivado do que as operações que já escalam estão fazendo.</p>
 </header>
+""" + decisao_mercado_html() + """
 
 <section>
 <h2><span class="n">01</span>Arquitetura de catálogo da loja nova</h2>
