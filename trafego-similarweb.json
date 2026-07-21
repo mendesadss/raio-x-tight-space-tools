@@ -1,0 +1,116 @@
+{
+ "wildbeartools.com": {
+  "visitas": "42K",
+  "rankGlobal": null,
+  "rankPais": null,
+  "rankCategoria": null,
+  "bounce": "45.58%",
+  "pagesPerVisit": "2.38",
+  "duracao": "00:01:15",
+  "paises": [
+   {
+    "pais": "United States",
+    "pct": "73.8%"
+   },
+   {
+    "pais": "Australia",
+    "pct": "13.77%"
+   },
+   {
+    "pais": "Canada",
+    "pct": "5.54%"
+   },
+   {
+    "pais": "Mexico",
+    "pct": "2.9%"
+   },
+   {
+    "pais": "United Kingdom",
+    "pct": "2.07%"
+   },
+   {
+    "pais": "Others",
+    "pct": "1.91%"
+   }
+  ],
+  "status": "OK",
+  "print": "prints/sw-wildbeartools_com.jpg",
+  "dominio": "wildbeartools.com"
+ },
+ "thesavary.com": {
+  "visitas": "20K",
+  "rankGlobal": "2,112,041",
+  "rankPais": "607,144",
+  "rankCategoria": null,
+  "bounce": "59.02%",
+  "pagesPerVisit": "1.65",
+  "duracao": "00:01:01",
+  "paises": [
+   {
+    "pais": "United States",
+    "pct": "94.84%"
+   },
+   {
+    "pais": "United Kingdom",
+    "pct": "5.16%"
+   }
+  ],
+  "status": "OK",
+  "print": "prints/sw-thesavary_com.jpg",
+  "dominio": "thesavary.com"
+ },
+ "bolthero.com": {
+  "visitas": null,
+  "rankGlobal": null,
+  "rankPais": null,
+  "rankCategoria": null,
+  "bounce": null,
+  "pagesPerVisit": null,
+  "duracao": null,
+  "status": "SEM DADOS",
+  "print": "prints/sw-bolthero_com.jpg",
+  "dominio": "bolthero.com"
+ },
+ "vaylo.com": {
+  "visitas": "20K",
+  "rankGlobal": null,
+  "rankPais": null,
+  "rankCategoria": null,
+  "bounce": "32.84%",
+  "pagesPerVisit": "1.05",
+  "duracao": null,
+  "status": "OK",
+  "print": "prints/sw-vaylo_com.jpg",
+  "dominio": "vaylo.com"
+ },
+ "felmix.com": {
+  "visitas": "20K",
+  "rankGlobal": null,
+  "rankPais": null,
+  "rankCategoria": null,
+  "bounce": "41.05%",
+  "pagesPerVisit": "1.11",
+  "duracao": null,
+  "paises": [
+   {
+    "pais": "France",
+    "pct": "100%"
+   }
+  ],
+  "status": "OK",
+  "print": "prints/sw-felmix_com.jpg",
+  "dominio": "felmix.com"
+ },
+ "confinedim.com": {
+  "visitas": null,
+  "rankGlobal": null,
+  "rankPais": null,
+  "rankCategoria": null,
+  "bounce": null,
+  "pagesPerVisit": null,
+  "duracao": null,
+  "status": "SEM DADOS",
+  "print": "prints/sw-confinedim_com.jpg",
+  "dominio": "confinedim.com"
+ }
+}

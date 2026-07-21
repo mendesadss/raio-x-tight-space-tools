@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "pesquisa": "Nicho Ferramentas Tight-Space (Offset Extension Wrench) - Mercado US/Big Five anglo",
+  "data": "2026-07-20",
+  "metodo": "Skill /raio-x - modo profundo, escopo nicho. Universo levantado na Meta Ad Library (13+ paginas), rede persona->loja resolvida via Ad Library publica, trafego via SimilarWeb, catalogo via products.json, idade via RDAP.",
+  "benchmark_irp": {
+   "mes": "Junho 2026",
+   "fonte": "IRP Commerce",
+   "setores_usados": {
+    "Cars and Motorcycling": {
+     "conversao": 1.78,
+     "aov_gbp": 216.16,
+     "cpa_pct": 8.11
+    },
+    "Sports and Recreation": {
+     "conversao": 1.95,
+     "aov_gbp": 114.22,
+     "cpa_pct": 7.3
+    },
+    "Kitchen & Home Appliances": {
+     "conversao": 2.84,
+     "aov_gbp": 57.99,
+     "cpa_pct": 7.4
+    }
+   },
+   "nota": "DIY, Tools & Garden nao presente no dataset do mes. Categoria da ferramenta = automotiva/DIY, setor mais proximo Cars&Motorcycling e Sports&Rec. CPM ecom geral $10,42, CPC $0,67."
+  }
+ },
+ "classificacao_referencias_mentorado": [
+  {
+   "dominio": "wildbeartools.com",
+   "veredito": "DROP DE NICHO",
+   "nicho": "Tight-space tools",
+   "dominio_reg": "2025-11-27",
+   "obs": "Loja-oferta enxuta (6 SKUs), advertorial de historia, cluster com pagina Miles Turner. E O ALVO."
+  },
+  {
+   "dominio": "thesavary.com",
+   "veredito": "DROP DE NICHO",
+   "nicho": "Tight-space / mechanic tools",
+   "dominio_reg": "2025-12-13",
+   "obs": "24 SKUs, stack de CRO mais caro do grupo (Triple Whale, Vitals, GemPages, Shrine). Cluster com John Miller + The Home Garage Journal. ALVO."
+  },
+  {
+   "dominio": "bling-furnitureshop.com",
+   "veredito": "DROP GENERAL STORE",
+   "nicho": "Nenhum (loja geral)",
+   "dominio_reg": "2022-05-07",
+   "obs": "250+ produtos aleatorios (luz de carro, testador de fluido, extrator de parafuso, cantoneira de movel). Catalogo caotico com emoji 50% OFF. Nao e modelo de oferta unica."
+  },
+  {
+   "dominio": "patiyu.com",
+   "veredito": "DROP GENERAL STORE",
+   "nicho": "Nenhum (loja geral)",
+   "dominio_reg": "2022-12-01",
+   "obs": "250+ produtos totalmente aleatorios (escavadeira de brinquedo, massageador, piscina inflavel, jeans, tocha a gas). General store puro."
+  },
+  {
+   "dominio": "onevantool.com",
+   "veredito": "NAO E DROP (marca/catalogo)",
+   "nicho": "Power tools ONEVAN",
+   "dominio_reg": "2023-03-22",
+   "obs": "179 SKUs de ferramenta eletrica cordless marca ONEVAN. Modelo de catalogo de marca, nao advertorial de produto unico. Ticket mediana $110."
+  },
+  {
+   "dominio": "integraltruck.com",
+   "veredito": "NAO E DROP (marca DTC)",
+   "nicho": "Truck bed storage",
+   "dominio_reg": "2023-05-20",
+   "obs": "Produto proprietario (Integral Rail Kit p/ Ford Transit, F150, RAM), bundles ate $1025, stack DTC pesado. Marca real de acessorio automotivo, nao drop."
+  }
+ ],
+ "rede_persona_loja": {
+  "descricao": "Cada operacao de drop do nicho roda paginas com NOME DE PESSOA (persona) alem da pagina da marca, apontando para a mesma loja. Estrutura anti-ban e de autenticidade do advertorial.",
+  "clusters": {
+   "WildBear": {
+    "loja": "wildbeartools.com",
+    "paginas": {
+     "WildBear Tools": {
+      "id": "773853199152800",
+      "ativos": 187,
+      "hist": 252
+     },
+     "Miles Turner": {
+      "id": "958699027322612",
+      "ativos": 162,
+      "destino_conf": "wildbeartools.com (92 links)"
+     }
+    }
+   },
+   "Bolthero": {
+    "loja": "getbolthero.com",
+    "lander": "bolthero.com",
+    "paginas": {
+     "Bolthero": {
+      "id": "1032658546598312",
+      "ativos": 144,
+      "hist": 388,
+      "destino_conf": "getbolthero.com (40)"
+     },
+     "Mike Hartwell": {
+      "id": "919813591217178",
+      "ativos": 174,
+      "destino_conf": "getbolthero.com (34) + shopdeeply.co (9)"
+     }
+    }
+   },
+   "Savary": {
+    "loja": "thesavary.com",
+    "paginas": {
+     "Savary Tool": {
+      "id": "1007905595735400",
+      "ativos": 20,
+      "hist": 39
+     },
+     "John Miller": {
+      "id": "893664177170599",
+      "ativos": 42,
+      "destino_conf": "thesavary.com (56)"
+     },
+     "The Home Garage Journal": {
+      "id": "1206892329163818",
+      "ativos": 31,
+      "destino_conf": "thesavary.com (24)"
+     }
+    }
+   },
+   "Bolt Hunter": {
+    "loja": "bolt-hunter.com",
+    "paginas": {
+     "Robert Thompson": {
+      "id": "860939407096361",
+      "ativos": 16,
+      "hist": 17,
+      "destino_conf": "bolt-hunter.com (28)"
+     }
+    }
+   },
+   "Confinedim": {
+    "loja": "confinedim.com",
+    "paginas": {
+     "Confinedim": {
+      "id": "871418609379460",
+      "ativos": 35,
+      "hist": 2428,
+      "destino_conf": "confinedim.com (26)"
+     }
+    }
+   },
+   "Felmix": {
+    "loja": "felmix.com",
+    "paginas": {
+     "Felmix": {
+      "id": "694480707084135",
+      "ativos": 12,
+      "hist": 175,
+      "destino_conf": "felmix.com (32)"
+     }
+    }
+   }
+  }
+ },
+ "lojas": {
+  "wildbeartools.com": {
+   "marca": "WildBear Tools",
+   "dominio_reg": "2025-11-27",
+   "plataforma": "Shopify",
+   "ativos": 187,
+   "hist": 252,
+   "cluster_ativos": 349,
+   "cadencia": {
+    "ads_dia": 9.6,
+    "unicos_amostra": 8,
+    "duplicacao": 6.25,
+    "leitura": "poucos criativos, muita duplicacao = escala por publico/budget"
+   },
+   "n_products": 6,
+   "ticket_min": 10,
+   "ticket_max": 99,
+   "ticket_median": 69,
+   "produtos": [
+    {
+     "t": "Offset Extension - MAX",
+     "price": 99
+    },
+    {
+     "t": "Offset Extension 2.0",
+     "price": 79
+    },
+    {
+     "t": "MagnetBeam X",
+     "price": 69
+    },
+    {
+     "t": "VisiPro",
+     "price": 25
+    },
+    {
+     "t": "Screw Plugs",
+     "price": 19
+    },
+    {
+     "t": "Socket Adapters - Male 4 pcs",
+     "price": 10
+    }
+   ],
+   "stack": [
+    "klaviyo",
+    "trustpilot",
+    "upcart",
+    "bold",
+    "klarna",
+    "shop pay"
+   ],
+   "claims": [
+    "20.000+ customers",
+    "10.000+ happy customers"
+   ],
+   "fraude_prova_social": "Alega 20.000+ customers com dominio de ~2 meses (reg 2025-11-27). Inflacao classica.",
+   "trafego": {
+    "visitas_mes": "42K",
+    "bounce": "45.58%",
+    "pg_visita": "2.38",
+    "duracao": "00:01:15",
+    "paises": {
+     "US": "73.8%",
+     "Australia": "13.77%",
+     "Canada": "5.54%",
+     "Mexico": "2.9%",
+     "UK": "2.07%"
+    }
+   },
+   "reviews": "Nao expoe contagem via JSON-LD (usa Trustpilot + widget). Nao derivavel.",
+   "veredito": "MODELAR",
+   "page_id": "773853199152800",
+   "modelo": "DROPSHIPPING",
+   "nivel": "INICIANTE",
+   "scorecard": {
+    "Sourcing simples": 2,
+    "Ticket fecha sem escada complexa": 2,
+    "Criativo simples de produzir": 2,
+    "Mecanismo com urgencia": 2,
+    "Investimento de entrada baixo": 1,
+    "Sem dependencia de autoridade": 2
+   },
+   "score": 11,
+   "nivel_just": "Produto unico achavel no AliExpress, dor urgente, criativo IA/advertorial. So o investimento cai pra 1: escala por budget (duplicacao ~6x) exige bolso pra volume de publico.",
+   "anatomia": {
+    "big_idea": "A ferramenta de ~$89 que alcanca o parafuso escondido que ja te custou centenas na oficina.",
+    "mecanismo": "Offset extension: chega onde o ratchet nao chega.",
+    "hook": "Oferta + demonstracao ('Reaches Where Nothing Else Can', 'This tool would have saved me hundreds').",
+    "presell": "Pagina-persona (Miles Turner) + oferta direta com desconto agressivo (Black Friday 55% OFF).",
+    "objecao": "Preco, quebrada com ancoragem no custo da oficina. (comentarios nao raspados)"
+   },
+   "momentum_loja": "crescendo"
+  },
+  "getbolthero.com": {
+   "marca": "Bolthero",
+   "dominio_reg": "bolthero.com=2019 (lander); getbolthero.com=loja",
+   "plataforma": "Shopify",
+   "ativos": 144,
+   "hist": 388,
+   "cluster_ativos": 318,
+   "cadencia": {
+    "ads_dia": 20,
+    "unicos_amostra": 44,
+    "duplicacao": 1.14,
+    "leitura": "muitos angulos de historia unicos (persona Mike Hartwell) = escala por VOLUME DE CRIATIVO, segmentando por maquina (diesel, farm, marine, moto, spark plug)"
+   },
+   "n_products": 5,
+   "ticket_min": 15,
+   "ticket_max": 69,
+   "ticket_median": 25,
+   "produtos": [
+    {
+     "t": "BOLTHERO - Reach The Bolts Your Ratchet Can't",
+     "price": 69
+    },
+    {
+     "t": "BoltHero Telescopic Mirror",
+     "price": 25
+    },
+    {
+     "t": "BoltHero Telescopic Magnet With Light",
+     "price": 25
+    },
+    {
+     "t": "10 Tips to Wrench Smarter (digital)",
+     "price": 15
+    }
+   ],
+   "stack": [
+    "klaviyo",
+    "loox",
+    "gempages",
+    "bold",
+    "tiktok",
+    "pinterest"
+   ],
+   "reviews": {
+    "amostra": 55,
+    "produtos": {
+     "digital-product": {
+      "n": 33,
+      "nota": 4.8
+     },
+     "telescopic-magnet": {
+      "n": 22,
+      "nota": 4.9
+     }
+    },
+    "pedidos_estimados": "1.833 a 5.500 (piso, 2 produtos amostrados)"
+   },
+   "escada": "Core $69 + telescopic mirror/magnet $25 (upsell) + guia digital $15 (bump). Escada clara.",
+   "trafego": {
+    "visitas_mes": "100K",
+    "bounce": "54.05%",
+    "pg_visita": "1.86",
+    "duracao": "00:00:26",
+    "paises": {
+     "US": "83.51%",
+     "Australia": "6.56%",
+     "Canada": "5.83%",
+     "Spain": "1.67%",
+     "Indonesia": "1.59%"
+    }
+   },
+   "veredito": "MODELAR",
+   "page_id": "1032658546598312",
+   "modelo": "DROPSHIPPING",
+   "nivel": "INICIANTE",
+   "scorecard": {
+    "Sourcing simples": 2,
+    "Ticket fecha sem escada complexa": 2,
+    "Criativo simples de produzir": 1,
+    "Mecanismo com urgencia": 2,
+    "Investimento de entrada baixo": 1,
+    "Sem dependencia de autoridade": 2
+   },
+   "score": 10,
+   "nivel_just": "Modelo ideal pra IA (historias), mas exige VOLUME de criativo (44 unicos/amostra) e opera grande (100K visitas): criativo e investimento em 1.",
+   "anatomia": {
+    "big_idea": "O mecanico veterano que quase pagou milhares ao dealer por um parafuso que ele mesmo resolveu.",
+    "mecanismo": "Offset extension vendido por HISTORIA de credibilidade, nao por feature.",
+    "hook": "Historia em 1a pessoa por maquina ('One rounded bolt cost my shop $1,400', 'These four plugs almost cost me $760').",
+    "presell": "Advertorial de historia longo, 44 variacoes por maquina (diesel/farm/marine/moto).",
+    "objecao": "'Serve pro meu veiculo?' resolvida pela variacao; preco pela conta do dealer. (comentarios nao raspados)"
+   },
+   "momentum_loja": "crescendo"
+  },
+  "thesavary.com": {
+   "marca": "Savary",
+   "dominio_reg": "2025-12-13",
+   "plataforma": "Shopify",
+   "ativos": 20,
+   "hist": 39,
+   "cluster_ativos": 93,
+   "n_products": 24,
+   "ticket_min": 5,
+   "ticket_max": 397,
+   "ticket_median": 45,
+   "produtos": [
+    {
+     "t": "Offset Extension Wrench / Llave de Extension Acodada PRO",
+     "price": 397
+    },
+    {
+     "t": "Torque Multiplier Wrench",
+     "price": 397
+    },
+    {
+     "t": "Savary Flameless Bolt Heater",
+     "price": 200
+    },
+    {
+     "t": "Savary Chainsaw Sharpener",
+     "price": 90
+    },
+    {
+     "t": "Pro Headlamp Rechargeable",
+     "price": 45
+    },
+    {
+     "t": "Suspension Spreader",
+     "price": 45
+    },
+    {
+     "t": "4 Essential Socket Adapters",
+     "price": 20
+    },
+    {
+     "t": "2-Year Extended Warranty (upsell)",
+     "price": 30
+    },
+    {
+     "t": "1-Year Extended Warranty (upsell)",
+     "price": 20
+    }
+   ],
+   "stack": [
+    "klaviyo",
+    "trustpilot",
+    "loox",
+    "gempages",
+    "shrine",
+    "pagefly",
+    "recharge",
+    "vitals",
+    "triplewhale",
+    "clarity",
+    "bold"
+   ],
+   "stack_leitura": "Stack mais caro e sofisticado do grupo: Triple Whale (atribuicao) + Vitals + GemPages + Shrine + Recharge. Marcador de porte e maturidade de CRO.",
+   "img_ai": {
+    "higgsfield": 5,
+    "gemini": 2
+   },
+   "social": [
+    "instagram.com/savarytool"
+   ],
+   "escada": "Warranties vendidas como SKU (1-2 anos) = order bump explicito. Catalogo mais largo (24) com ticket ate $397. Tambem vende em espanhol.",
+   "trafego": {
+    "visitas_mes": "20K",
+    "bounce": "59.02%",
+    "pg_visita": "1.65",
+    "duracao": "00:01:01",
+    "rankGlobal": "2.112.041",
+    "paises": {
+     "US": "94.84%",
+     "UK": "5.16%"
+    }
+   },
+   "reviews": "Nao expoe contagem via JSON-LD (Loox widget). Nao derivavel.",
+   "veredito": "MODELAR",
+   "page_id": "1007905595735400",
+   "modelo": "DROPSHIPPING",
+   "nivel": "MEDIO",
+   "scorecard": {
+    "Sourcing simples": 1,
+    "Ticket fecha sem escada complexa": 1,
+    "Criativo simples de produzir": 2,
+    "Mecanismo com urgencia": 2,
+    "Investimento de entrada baixo": 1,
+    "Sem dependencia de autoridade": 1
+   },
+   "score": 8,
+   "nivel_just": "Catalogo largo (24 SKUs, ticket ate $397), escada com garantias, stack caro (Triple Whale + Vitals). Operacao de medio porte, pede operador com alguma experiencia.",
+   "anatomia": {
+    "big_idea": "Kit profissional de acesso apertado (offset + torque multiplier + bolt heater) com garantia.",
+    "mecanismo": "Multi-solucao de acesso + garantia estendida como confianca.",
+    "hook": "Oferta ('Up to 50% off') + catalogo pro multilingue (US + espanhol).",
+    "presell": "Personas (John Miller, Home Garage Journal) + PDP robusta (GemPages) com garantias.",
+    "objecao": "Durabilidade/confianca, respondida com garantia estendida vendida como SKU."
+   },
+   "momentum_loja": "crescendo"
+  },
+  "confinedim.com": {
+   "marca": "Confinedim",
+   "dominio_reg": "2025-10-10",
+   "plataforma": "Shopify atras de Cloudflare (products.json 404)",
+   "ativos": 35,
+   "hist": 2428,
+   "sobrevivencia": "1.4% (35/2428) = queima massiva de criativo em volume",
+   "produtos": [
+    {
+     "t": "Extension Clamp Tool - Perfect Tool For Tight Spaces",
+     "price": "~5-100 (faixa vista no HTML)"
+    }
+   ],
+   "stack": [
+    "recharge",
+    "stripe",
+    "paypal",
+    "tiktok",
+    "pinterest",
+    "hotjar",
+    "afterpay",
+    "klarna"
+   ],
+   "trafego": "SimilarWeb SEM DADOS (site atras de Cloudflare, sem historico exposto). Tentado: SimilarWeb navegador real (3 tentativas), products.json (404), sitemap (bloqueado). Use o volume de anuncios (2.428 historico) como proxy de porte.",
+   "obs": "2428 anuncios no historico e o maior volume do grupo, mas so 35 ativos. Ou queima agressiva ou operacao esfriando. products.json bloqueado por Cloudflare.",
+   "veredito": "OBSERVAR",
+   "page_id": "871418609379460",
+   "modelo": "DROPSHIPPING",
+   "nivel": "MEDIO",
+   "scorecard": {
+    "Sourcing simples": 2,
+    "Ticket fecha sem escada complexa": 2,
+    "Criativo simples de produzir": 0,
+    "Mecanismo com urgencia": 2,
+    "Investimento de entrada baixo": 0,
+    "Sem dependencia de autoridade": 2
+   },
+   "score": 8,
+   "nivel_just": "Queima industrial de 2.428 criativos exige producao e budget altos: criativo e investimento em 0. Nicho simples, mas o ritmo dela e de operador avancado.",
+   "anatomia": {
+    "big_idea": "Ferramenta de grampo/extensao pra espacos apertados.",
+    "mecanismo": "Extension clamp tool.",
+    "hook": "'Perfect Tool For Tight Spaces'.",
+    "presell": "Loja Shopify atras de Cloudflare; advertorial nao acessado.",
+    "objecao": "nao decodificada (site bloqueado + comentarios nao raspados)"
+   },
+   "momentum_loja": "retraindo"
+  },
+  "felmix.com": {
+   "marca": "Felmix",
+   "dominio_reg": "2025-09-21",
+   "plataforma": "Shopify",
+   "ativos": 12,
+   "hist": 175,
+   "n_products": 16,
+   "produtos": [
+    {
+     "t": "When Your Impact Won't Fit (offset/tight-space tool)",
+     "price": "?"
+    }
+   ],
+   "stack": [
+    "klaviyo",
+    "judge.me",
+    "bold",
+    "pinterest"
+   ],
+   "img_ai": {
+    "gemini": 1
+   },
+   "trafego": "SimilarWeb retornou 20K visitas/mes mas 100% Franca, o que NAO bate com anuncios em USD do nicho US. Tratado como nao confiavel (dominio possivelmente reciclado ou operacao europeia paralela). Nao usado para estimar faturamento.",
+   "veredito": "OBSERVAR",
+   "page_id": "694480707084135",
+   "modelo": "DROPSHIPPING",
+   "nivel": "INICIANTE",
+   "scorecard": {
+    "Sourcing simples": 2,
+    "Ticket fecha sem escada complexa": 2,
+    "Criativo simples de produzir": 2,
+    "Mecanismo com urgencia": 2,
+    "Investimento de entrada baixo": 2,
+    "Sem dependencia de autoridade": 1
+   },
+   "score": 11,
+   "nivel_just": "Operacao pequena e simples, produto unico, criativo IA (Gemini). Acessivel a iniciante.",
+   "anatomia": {
+    "big_idea": "'Quando seu impacto nao cabe' - o mesmo acesso apertado pelo lado da ferramenta pneumatica.",
+    "mecanismo": "Offset/tight-space tool.",
+    "hook": "'When Your Impact Won't Fit'.",
+    "presell": "Loja pequena, imagens IA (Gemini), Judge.me.",
+    "objecao": "nao decodificada (comentarios nao raspados)"
+   },
+   "momentum_loja": "estavel"
+  },
+  "bolt-hunter.com": {
+   "marca": "Bolt Hunter",
+   "dominio_reg": "2026-07-17",
+   "plataforma": "Shopify",
+   "ativos": 16,
+   "hist": 17,
+   "n_products": 3,
+   "ticket_min": 3,
+   "ticket_max": 89,
+   "ticket_median": 18,
+   "produtos": [
+    {
+     "t": "Bolthunter Offset-Extension",
+     "price": 89
+    },
+    {
+     "t": "LED-HEADLAMP (upsell)",
+     "price": 18
+    },
+    {
+     "t": "Shipping Protection (bump)",
+     "price": 3
+    }
+   ],
+   "stack": [
+    "klaviyo",
+    "recharge",
+    "bold",
+    "afterpay"
+   ],
+   "claims": [
+    "40.000+ customers"
+   ],
+   "fraude_prova_social": "Alega 40.000+ customers com dominio de 3 DIAS (reg 2026-07-17). Fraude flagrante. Loja recem-lancada testando a oferta.",
+   "trafego": "Nao coletado (loja de 3 dias, sem historico SimilarWeb).",
+   "veredito": "OBSERVAR (nova, ainda testando)",
+   "page_id": "860939407096361",
+   "modelo": "DROPSHIPPING",
+   "nivel": "INICIANTE",
+   "scorecard": {
+    "Sourcing simples": 2,
+    "Ticket fecha sem escada complexa": 2,
+    "Criativo simples de produzir": 2,
+    "Mecanismo com urgencia": 2,
+    "Investimento de entrada baixo": 2,
+    "Sem dependencia de autoridade": 1
+   },
+   "score": 11,
+   "nivel_just": "Escada simples montada no dia 1 (core+upsell+bump), produto unico. Nova demais pra ter autoridade (1).",
+   "anatomia": {
+    "big_idea": "Mesma oferta core, escada montada no dia 1.",
+    "mecanismo": "Bolthunter Offset-Extension.",
+    "hook": "Historia (persona Robert Thompson) + prova social inflada (40.000 customers em 3 dias).",
+    "presell": "Advertorial de historia; loja de 3 dias.",
+    "objecao": "nao decodificada (loja nova, comentarios nao raspados)"
+   },
+   "momentum_loja": "emergente"
+  },
+  "vaylo.com": {
+   "marca": "Vaylo (pagina FB)",
+   "dominio_reg": "vaylo.com=2015",
+   "ativos": 0,
+   "obs": "Pagina FB 'Vaylo' rodou o nicho (Worth every penny) mas esta com 0 ativos = PARADA. E o dominio vaylo.com virou site sueco de travel tech (sem relacao com a loja de ferramenta). Loja real nao resolvida / operacao encerrada.",
+   "veredito": "IGNORAR (parada / dominio nao corresponde)",
+   "page_id": "826029873936502",
+   "modelo": "INDETERMINADO (pagina parada)",
+   "nivel": null,
+   "scorecard": null,
+   "score": null,
+   "nivel_just": "Pagina com 0 ativos e dominio que virou site sueco de travel tech. Nao classificavel como dropshipping ativo."
+  }
+ },
+ "angulos_advertorial": {
+  "estrutura": "Advertorial de historia em 1a pessoa (persona mecanico/fazendeiro). Batida: (1) o dealer/oficina cobrou $X absurdo por um parafuso escondido -> (2) descobri que o problema era 1 parafuso que nada alcanca -> (3) essa ferramenta de $89 resolveu -> CTA follow/loja.",
+  "ancoragem": "Preco do trabalho no mecanico ($540 a $2.800) contra o preco da ferramenta ($69-99). Ancoragem por economia, nao por desconto.",
+  "segmentacao_por_maquina": [
+   "diesel truck (LML, 12-valve, 5.9, manifold studs, Triton 5.4)",
+   "farm (hay, calves, Kubota, Farmall skid steer)",
+   "marine (impeller, marina)",
+   "moto (Yamaha salt-seized bolts)",
+   "spark plugs (Ford, Subaru)",
+   "RV"
+  ],
+  "headlines_oferta": [
+   "Black Friday Up to 55% OFF",
+   "Only This Week: 30% OFF",
+   "Last Chance: 50% OFF",
+   "Reaches the Bolt Your Ratchet Can't",
+   "When Your Impact Won't Fit",
+   "This tool would've saved me hundreds"
+  ]
+ },
+ "arquitetura_catalogo": {
+  "marca": "Winkelmeister",
+  "colecoes": [
+   {
+    "nome": "Winkel-Werkzeuge (ferramentas de angulo)",
+    "papel": "coracao da loja, onde cai o trafego do advertorial",
+    "produtos": [
+     {
+      "t": "Winkel-Verlaengerung (offset extension wrench) - CORE",
+      "kw": "offset extension wrench",
+      "link": "https://www.aliexpress.com/w/wholesale-offset-extension-wrench.html?SortType=total_tranpro_desc"
+     },
+     {
+      "t": "4er Adapter-Set (socket adapters)",
+      "kw": "socket adapter set",
+      "link": "https://www.aliexpress.com/w/wholesale-socket-adapter-set.html?SortType=total_tranpro_desc"
+     },
+     {
+      "t": "Drehmoment-Adapter (torque adapter)",
+      "kw": "torque adapter socket",
+      "link": "https://www.aliexpress.com/w/wholesale-torque-adapter-socket.html?SortType=total_tranpro_desc"
+     }
+    ]
+   },
+   {
+    "nome": "Sicht & Zugang (visibilidade e acesso)",
+    "papel": "upsells naturais do mesmo problema",
+    "produtos": [
+     {
+      "t": "Teleskop-Inspektionsspiegel",
+      "kw": "telescoping inspection mirror",
+      "link": "https://www.aliexpress.com/w/wholesale-telescoping-inspection-mirror.html?SortType=total_tranpro_desc"
+     },
+     {
+      "t": "Magnet-Greifer mit LED",
+      "kw": "magnetic pickup tool light",
+      "link": "https://www.aliexpress.com/w/wholesale-magnetic-pickup-tool-light.html?SortType=total_tranpro_desc"
+     }
+    ]
+   },
+   {
+    "nome": "Bundles & Digital",
+    "papel": "sobe o AOV; o eBook e margem 100%",
+    "produtos": [
+     {
+      "t": "Werkstatt-Retter Set (core + espelho + magnet, bundle)",
+      "kw": "(bundle proprio dos 3 acima)",
+      "link": ""
+     },
+     {
+      "t": "eBook '10 Schrauber-Tricks' (digital, custo zero)",
+      "kw": "(produzido por voce)",
+      "link": ""
+     }
+    ]
+   }
+  ],
+  "nota": "3 colecoes, 7 SKUs (1 core, 4 acessorios de escada, 1 bundle, 1 digital). Enxuto de proposito: 1 produto heroi + escada, nao catalogo largo."
+ },
+ "paleta_marca": {
+  "marca": "Winkelmeister",
+  "swatches": [
+   {
+    "nome": "Antrazit",
+    "hex": "#1A1D1F",
+    "fn": "fundo e forca; cara de oficina seria"
+   },
+   {
+    "nome": "Signalorange",
+    "hex": "#FF6A13",
+    "fn": "destaque, CTA, preco; laranja industrial de ferramenta"
+   },
+   {
+    "nome": "Stahlgrau",
+    "hex": "#8A9199",
+    "fn": "secundario, metal, detalhes tecnicos"
+   },
+   {
+    "nome": "Werkstattweiss",
+    "hex": "#F2F0EB",
+    "fn": "texto e areas limpas; contraste com o antracite"
+   }
+  ],
+  "nota": "Paleta industrial alema (antracite + laranja-sinal). E a identidade da MARCA-PRODUTO a criar, distinta do branding preto/branco/verde desta interface de pesquisa."
+ },
+ "momentum_nicho": {
+  "ciclo_vida": "ESCALANDO",
+  "demanda_trends": {
+   "socket extension": "crescente (56->64)",
+   "wrench extension": "crescente (45->56)",
+   "stripped bolt extractor": "estavel (70->72)",
+   "fonte": "Google Trends via pytrends, 12 meses, worldwide",
+   "uk_interesse": "UK aparece com interesse relativo 60 (maior entre mercados grandes)"
+  },
+  "saturacao_midia": "Dominios novos entrando o tempo todo (WildBear nov/2025, Savary dez/2025, Confinedim out/2025, Felmix set/2025, Bolt Hunter jul/2026). Campeoes com longevidade e sobrevivencia alta (WildBear 74%). ~810 ativos no agregado do nicho.",
+  "leitura": "Demanda subindo + anunciantes crescendo com espaco geografico ainda aberto = ESCALANDO. Validado e ainda com brecha (UK/DE). Nao e SATURADO porque o mercado nao-US esta praticamente vazio.",
+  "lacuna": "Google Trends por pais retornou ruido de baixo volume (Gambia 100). Usado so o sinal global (crescente) + o destaque do UK; a granularidade por pais fica sustentada na medicao de midia da Ad Library, mais confiavel aqui."
+ },
+ "mercados": {
+  "metodo": "Ad Library, anuncios ATIVOS. Angulo = 'offset extension wrench reach bolt' (concorrencia no meu angulo). Amplo = 'mechanic tool set garage car repair' (tamanho da categoria). Razao = angulo/amplo: baixa com amplo grande = espaco.",
+  "paises": [
+   {
+    "pais": "Estados Unidos",
+    "iso": "US",
+    "amplo": 16,
+    "angulo": 295,
+    "razao": "18,4",
+    "idioma": "ingles",
+    "leitura": "Saturado no angulo. Mercado principal, mas caro e disputado."
+   },
+   {
+    "pais": "Canada",
+    "iso": "CA",
+    "amplo": 10,
+    "angulo": 79,
+    "razao": "7,9",
+    "idioma": "ingles",
+    "leitura": "Ja sendo atacado (WildBear espalha pra ca)."
+   },
+   {
+    "pais": "Australia",
+    "iso": "AU",
+    "amplo": 11,
+    "angulo": 70,
+    "razao": "6,4",
+    "idioma": "ingles",
+    "leitura": "Ja sendo atacado."
+   },
+   {
+    "pais": "Reino Unido",
+    "iso": "GB",
+    "amplo": 7,
+    "angulo": 4,
+    "razao": "0,57",
+    "idioma": "ingles",
+    "leitura": "ALVO 1: angulo quase vazio (4) com demanda Trends alta (interesse 60) E ingles = copy dos EUA sem traducao."
+   },
+   {
+    "pais": "Alemanha",
+    "iso": "DE",
+    "amplo": 19,
+    "angulo": 0,
+    "razao": "0,00",
+    "idioma": "alemao",
+    "leitura": "ALVO 2: maior mercado amplo (19) e angulo ZERO. Precisa traduzir, mas e o oceano mais azul. Base da marca Winkelmeister."
+   }
+  ],
+  "sequencia": [
+   "1. UK primeiro: mesma copy inglesa dos EUA, so trocar moeda/frete. Demanda Trends alta, angulo quase vazio.",
+   "2. DACH (Alemanha + Austria + Suica): traduzir pra alemao (marca Winkelmeister). Angulo zero, mercado amplo maior.",
+   "3. Depois: Canada/Australia so se sobrar budget (ja disputados)."
+  ],
+  "idioma": "UK em ingles (copy pronta, zero traducao). DACH em alemao nativo (o angulo depende da conta da Werkstatt, culturalmente carregada).",
+  "limitacao": "Contagem por palavra-chave da Ad Library nao e comparavel a contagem por pagina do painel, mas e consistente ENTRE paises com o mesmo termo. O termo amplo e restritivo (AND de varias palavras): subestima o mercado absoluto, serve como comparacao relativa."
+ },
+ "pl_mentorado": {
+  "moeda": "EUR",
+  "nota": "Custo de produto e frete sao ESTIMATIVA de busca no AliExpress (nao medidos: captcha). CPA do benchmark IRP/e-com, nao inventado.",
+  "cenarios": [
+   {
+    "nome": "So core",
+    "preco": 69,
+    "custo": 10,
+    "frete": 4,
+    "gateway": 2.8,
+    "cpa": 25,
+    "margem": 27.2,
+    "margem_pct": "39%"
+   },
+   {
+    "nome": "Core + escada (AOV ~90)",
+    "preco": 90,
+    "custo": 16,
+    "frete": 6,
+    "gateway": 3.6,
+    "cpa": 25,
+    "margem": 39.4,
+    "margem_pct": "44%"
+   }
+  ],
+  "leitura": "A margem fecha com o CORE sozinho (39%): nao depende da escada pra sobreviver ao CPA. A escada melhora pra 44%. Isso sustenta o nivel INICIANTE: nao precisa de escada complexa no dia 1 pra nao perder dinheiro."
+ },
+ "angulo_dominante": {
+  "big_idea": "'A oficina te cobra $500-2.800 de mao de obra por um parafuso escondido que voce mesmo resolve com uma ferramenta de $89.'",
+  "mecanismo": "Extensao/chave em angulo que alcanca onde ratchet e impact nao chegam.",
+  "hook_dominante": "Historia em 1a pessoa (persona mecanico/fazendeiro veterano) ancorada no valor absurdo cobrado pela oficina, segmentada por maquina (diesel, farm, marine, moto, spark plug).",
+  "prova": "Antes/depois do acesso + ancoragem no labor do dealer. Prova social (muitas vezes inflada).",
+  "objecao_central": "'Serve pro meu veiculo?' (resolvida com variacao por maquina) e 'sera que vale o preco?' (quebrada com a conta da oficina).",
+  "nota": "Alimenta a /advertorial e a /criar-oferta. Objecoes inferidas do padrao de copy; comentarios dos anuncios nao foram raspados nesta rodada."
+ }
+}
